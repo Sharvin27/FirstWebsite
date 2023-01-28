@@ -1,0 +1,100 @@
+/* html{
+    background-image: url("images\\bg1.jpg");
+    background-size: auto;
+    
+} */
+
+body{
+    font-style: italic;
+   
+/*     
+        background-image: url("images\\bg1.jpg"); */
+    
+}
+nav{
+    background-color: none;
+    display: grid;
+    place-items: center;
+    
+}
+nav ul{
+    list-style-type: none;
+    
+}
+nav ul a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease-in;
+    font-size: 40px;
+    
+    color: rgb(11, 54, 11);
+} 
+nav ul a:hover{
+    /* background-color: black; */
+    color: rgb(8, 79, 21)
+}
+ div.header{
+    border-top: 5px solid black;
+    padding-top: 30px;
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black ;
+    border-right: 5px solid black;
+    padding-bottom: 30px;
+    color: rgb(198, 162, 162);
+    font-size: x-large;
+    background-image: linear-gradient() url("images\\bg1.jpg");
+    
+    /* background-color:cornsilk; */
+ } 
+
+
+ div.user{
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    height:10px;
+    padding-bottom: 20px;
+    border-bottom: 2px black solid;
+    
+}
+div.login form{
+    text-align: center;
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 300px;
+    background: rgb(12, 124, 115);
+    padding: 50px;
+    border: 10px solid seashell;
+    border-radius: 10px;
+}
+div.user{
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-top: 50px;
+    height: 10%;
+    width: fit-content;
+    border-bottom: 10px;
+    background-color: bisque;
+    font-size: large;
+    
+    
+}
+
+div.pass{
+    padding-bottom: 30px;
+    display: block;
+    font-size: large;
+    font-weight: bold ;
+    padding-bottom: 20px; 
+}
+div.name{
+    padding-bottom: 30px;
+    display: block;
+    font-size: large;
+    font-weight: bold ;
+    padding-bottom: 20px; 
+}
